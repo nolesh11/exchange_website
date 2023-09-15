@@ -67,7 +67,7 @@ h1{
     margin-bottom: 31px;
 }
 
-p{
+section:first-child p{
     text-align: center;
     color: #677071;
     font-size: 20px;
@@ -85,3 +85,126 @@ p{
 .form:hover{
     box-shadow: 0px 4px 55px 0px rgba(0, 0, 0, 0.07);
 } */
+
+
+/* second section */
+
+.properties{
+    margin-top: 154px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.properties h2{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 91px;
+    margin-bottom: 21px;
+}
+.properties p{
+    font-size: 18px;
+    color: #677071;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    font-size: 26px;
+    color: #CCCFD0;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.properties input[type=radio]{
+    color: #CCCFD0;
+    font-size: 26px;
+}
+
+.properties label:active{
+    content: '';
+    color: #772D8B;
+    transition: 5s;
+}
+
+.type_house{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choice{
+    flex-basis: 454px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 48px;
+    transition: 1s;
+    padding: 30px;
+}
+
+.choice:hover{
+    box-shadow: 2px 4px 55px 0px rgba(0, 0, 0, 0.11);
+
+}
+
+.choice img{
+    border-radius: 40px 40px 0 0;
+}
+.choice h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-bottom: 10px;
+}
+.choice p:nth-child(3){
+    font-size: 18px;
+    color: #677071;
+    margin-bottom: 22px;
+}
+.choice p:nth-child(4){
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 91px;
+}
+.choice p:nth-child(5){
+    font-size: 18px;
+    color: #CCCFD0;
+    margin-bottom: 82px;
+}
+
+.choice_btn{
+    flex-basis: 454px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #13A6BA;
+    border-radius: 20px;
+    text-align: center;
+    padding: 27px 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.properties_btn{
+    display: flex;
+    gap: 56px;
+    justify-content: end;
+}
+
+.primary_btn{
+    border: 1px solid #772D8B;
+    border-radius: 9px;
+    color: #772D8B;
+    padding: 14px 23px;
+    font-size: 30px;
+}
+.secondary_btn{
+    border-radius: 9px;
+    color: #fff;
+    background-color: #772D8B;
+    padding: 14px 23px;
+    font-size: 30px;
+}
+
