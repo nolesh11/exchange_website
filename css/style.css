@@ -208,3 +208,16 @@ form{
     font-size: 30px;
 }
 
+/* third section */
+
+section:nth-child(3){
+    margin-top: 400px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.info_pre img{
+    float: left;
+}
